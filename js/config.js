@@ -1,8 +1,8 @@
-/* 仅填写公开的表单分享地址或具备适当权限控制的工作人员应用入口。
- * 严禁在 GitHub 仓库上传飞书 App Secret、access token、个人手机号码、原始人员主表。
- * 将空字符串替换成经过测试的真实链接即可启用入口。
+/* 仅存放可分享的飞书表单 URL。不要上传令牌、手机号或人员主表。
+ * 提醒：当前表单用于工作人员内测，正式开放前要核验权限、去重和身份关联。
  */
 window.KT_CONFIG = {
-  feishuCheckinFormUrl: '',
+  feishuCheckinNov7Url: 'https://fcnds00gn6j0.feishu.cn/share/base/form/shrcnz6SRFN4FHLgLXVXHY2B9Je',
+  feishuCheckinNov21Url: 'https://fcnds00gn6j0.feishu.cn/share/base/form/shrcnqt0t2IrrmKiuPeiiuqDEmd',
   feishuStaffAppUrl: ''
 };

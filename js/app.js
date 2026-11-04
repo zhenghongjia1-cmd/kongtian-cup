@@ -8,7 +8,8 @@
  sections.forEach(s=>observer.observe(s));
  const config=window.KT_CONFIG||{};
  function setLink(selector,url,label){const el=$(selector);if(/^https:\/\//.test(url||'')){el.href=url;el.target='_blank';el.rel='noopener noreferrer';el.classList.remove('disabled-link');el.removeAttribute('aria-disabled');el.textContent=label+' ↗'}else{el.addEventListener('click',ev=>ev.preventDefault())}}
- setLink('#publicFormLink',config.feishuCheckinFormUrl,'打开飞书签到表单');
+ setLink('#checkinNov7Link',config.feishuCheckinNov7Url,'11月7日 · 飞书签到表单');
+ setLink('#checkinNov21Link',config.feishuCheckinNov21Url,'11月21日 · 飞书签到表单');
  setLink('#staffLink',config.feishuStaffAppUrl,'进入工作人员管理平台');
  const rounds=[
   {title:'初赛 · 胜者组',id:'A',matches:[['M1','①号','②号','胜者 → M5','败者 → L1'],['M2','③号','④号','胜者 → M5','败者 → L1'],['M3','⑤号','⑥号','胜者 → M6','败者 → L2'],['M4','⑦号','⑧号','胜者 → M6','败者 → L2']]},
