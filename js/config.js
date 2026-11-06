@@ -1,8 +1,8 @@
-/* 仅存放可分享的飞书表单 URL。不要上传令牌、手机号或人员主表。
- * 提醒：当前表单用于工作人员内测，正式开放前要核验权限、去重和身份关联。
- */
+/* 仅包含公开赛事信息。签到图片见 assets/images/第一场活动签到.png。 */
 window.KT_CONFIG = {
-  feishuCheckinNov7Url: 'https://fcnds00gn6j0.feishu.cn/share/base/form/shrcnz6SRFN4FHLgLXVXHY2B9Je',
-  feishuCheckinNov21Url: 'https://fcnds00gn6j0.feishu.cn/share/base/form/shrcnqt0t2IrrmKiuPeiiuqDEmd',
-  feishuStaffAppUrl: ''
+  year: 2026,
+  venue: '西苑体育馆',
+  eventDates: ['2026-11-14', '2026-11-21'],
+  eventTime: '12:30—18:00',
+  projects: ['羽毛球-男单', '羽毛球-女单', '羽毛球-男双', '羽毛球-女双', '羽毛球-混双', '乒乓球-男单', '乒乓球-女单', '乒乓球-男双', '乒乓球-女双', '乒乓球-混双', '篮球对抗', '三分投篮', '篮球接力', '趣味团体赛']
 };
